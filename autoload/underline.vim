@@ -1,3 +1,9 @@
+"
+" Author: Sebastian Fleissner
+" Copyright: (C) 2013 Sebastian Fleissner
+" License: Vim License - see ':help license'. 
+"
+
 function! underline#underline(symbol, overline)
     let lineNo = line('.')
     let counter = strlen(getline('.'))
