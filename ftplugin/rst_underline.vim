@@ -4,10 +4,10 @@
 " License: Vim License - see ':help license'. 
 "
 
-if exists("b:did_ftplugin_rst_underline")
+if exists("b:did_ftplugin_text_underline")
   finish
 endif
-let b:did_ftplugin_rst_underline = 1
+let b:did_ftplugin_text_underline = 1
 
 nnoremap <buffer><localleader>t1 :call underline#underline('#',1)<cr>
 nnoremap <buffer><localleader>t2 :call underline#underline('*',0)<cr>
